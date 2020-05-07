@@ -44,7 +44,7 @@ public class UnityJobSystemTest : MonoBehaviour
         m_MeshFilter = gameObject.GetComponent<MeshFilter>();
         m_Mesh = m_MeshFilter.mesh;
         m_Mesh.MarkDynamic();
-
+        
         // this persistent memory setup assumes our vertex count will not expand
         m_Vertices = new NativeArray<Vector3>(m_Mesh.vertices, Allocator.Persistent);
 

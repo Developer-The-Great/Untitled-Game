@@ -11,7 +11,7 @@ public class MeshVisualizer : MonoBehaviour
 
 
     [SerializeField]MeshFilter m_MeshFilter;
-    [SerializeField] Mesh m_Mesh;
+    [SerializeField]Mesh m_Mesh;
 
     // Start is called before the first frame update
     void Start()
